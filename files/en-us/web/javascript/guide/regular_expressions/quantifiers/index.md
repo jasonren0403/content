@@ -71,7 +71,7 @@ Quantifiers indicate numbers of characters or expressions to match.
       </td>
       <td>
         <p>
-          Where "n" is a positive integer, matches exactly "n" occurrences of
+          Where "n" is 0 or a positive integer, matches exactly "n" occurrences of
           the preceding item "x". For example, <code>/a{2}/</code> doesn't match
           the "a" in "candy", but it matches all of the "a"'s in "caandy", and
           the first two "a"'s in "caaandy".
@@ -84,7 +84,7 @@ Quantifiers indicate numbers of characters or expressions to match.
       </td>
       <td>
         <p>
-          Where "n" is a positive integer, matches at least "n" occurrences of
+          Where "n" is 0 or a positive integer, matches at least "n" occurrences of
           the preceding item "x". For example, <code>/a{2,}/</code> doesn't
           match the "a" in "candy", but matches all of the a's in "caandy" and
           in "caaaaaaandy".
